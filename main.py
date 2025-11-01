@@ -1,6 +1,6 @@
 from fastapi import FastAPI
-from db import db
-from utils import serialize_doc
+from config.db import db
+from utils.util_funcs import serialize_doc
 
 app = FastAPI()
 

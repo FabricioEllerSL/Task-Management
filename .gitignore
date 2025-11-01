@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-arg.txt
+.tox/
+.coverage
+.mypy_cache/
+.pytest_cache/
+htmlcov/
+.ipynb_checkpoints
+.spyderproject
+.spyproject
+
+# Editor/IDE specific
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Environment variables
+.env
+.flaskenv
+
+# Database files
+*.sqlite3
+*.db
+
+
+# Logs
+*.log

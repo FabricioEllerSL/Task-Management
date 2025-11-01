@@ -2,7 +2,7 @@ from pydantic import BaseModel, Field
 from datetime import datetime
 from enum import Enum
 
-class Priority(Enum):
+class Priority(str, Enum):
     low = "low"
     medium = "medium"
     high = "high"
@@ -12,4 +12,4 @@ class Task(BaseModel):
     description: str
     due_date: datetime
     priority: Priority = Field(default=Priority.medium)
-    done: bool
+    done: bool = False
